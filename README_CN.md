@@ -1,5 +1,7 @@
 # FastMail Gateway
 
+<img src="logo.png" width="200">
+
 一个使用 Go 编写的轻量级、独立邮件网关服务。它提供了一个简单的 HTTP API，通过 SMTP（例如 Gmail）发送邮件，支持附件和 HTML 内容。设计目标是易于使用，并可部署为单个二进制文件。
 
 [English](README.md) | [中文文档](README_CN.md)
@@ -101,6 +103,11 @@ curl -X POST http://localhost:8080/api/v1/send \
   -F "body=<h1>这是一封测试邮件</h1>" \
   -F "attachments=@/path/to/document.pdf"
 ```
+
+## 联系方式
+
+- QQ: 546253846
+- 邮箱: sherlock.yin1994@gmail.com
 
 ## 许可证
 
