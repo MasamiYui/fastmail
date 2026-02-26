@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  token: "your-secret-token"
+
+smtp:
+  host: "smtp.gmail.com"
+  port: 587
+  user: "your-email@gmail.com"
+  pass: "your-app-password"
