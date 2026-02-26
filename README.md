@@ -6,8 +6,6 @@ A lightweight, standalone email gateway service written in Go. It provides a sim
 
 ---
 
-## 🇬🇧 English Documentation
-
 ### Features
 
 - **Simple HTTP API**: Send emails via a RESTful `POST` endpoint.

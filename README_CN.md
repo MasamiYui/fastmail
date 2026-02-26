@@ -1,4 +1,4 @@
-# FastMail Gateway (中文文档)
+# FastMail Gateway
 
 一个使用 Go 编写的轻量级、独立邮件网关服务。它提供了一个简单的 HTTP API，通过 SMTP（例如 Gmail）发送邮件，支持附件和 HTML 内容。设计目标是易于使用，并可部署为单个二进制文件。
 
