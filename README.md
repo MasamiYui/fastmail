@@ -18,6 +18,21 @@ A lightweight, standalone email gateway service written in Go. It provides a sim
 - **Configurable**: extensive configuration via `config.yaml`, environment variables, or command-line flags.
 - **Single Binary**: Easy to deploy with no external runtime dependencies.
 
+## Architecture
+
+### System Architecture
+The service acts as a lightweight middleware between your applications and SMTP providers.
+1. **API Layer**: Exposes a RESTful interface using Gin Gonic.
+2. **Auth Layer**: Validates requests via Bearer Token.
+3. **Service Layer**: Handles email composition and attachment processing.
+4. **Integration**: Communicates with external SMTP servers to deliver messages.
+
+### Technical Stack
+- **Language**: [Go](https://go.dev/) (1.18+)
+- **Web Framework**: [Gin Gonic](https://gin-gonic.com/)
+- **Email Client**: [Gomail](https://github.com/go-gomail/gomail)
+- **Config Management**: YAML & Environment Variables
+
 ### Getting Started
 
 #### Prerequisites
