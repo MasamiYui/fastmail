@@ -28,7 +28,7 @@ The service acts as a lightweight middleware between your applications and SMTP 
 4. **Integration**: Communicates with external SMTP servers to deliver messages.
 
 ### Technical Stack
-- **Language**: [Go](https://go.dev/) (1.18+)
+- **Language**: [Go](https://go.dev/) (1.25+)
 - **Web Framework**: [Gin Gonic](https://gin-gonic.com/)
 - **Email Client**: [Gomail](https://github.com/go-gomail/gomail)
 - **Config Management**: YAML & Environment Variables
@@ -37,7 +37,7 @@ The service acts as a lightweight middleware between your applications and SMTP 
 
 #### Prerequisites
 
-- Go 1.18 or higher (for building from source)
+- Go 1.25 or higher (for building from source)
 
 #### Installation
 
