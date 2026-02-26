@@ -28,7 +28,7 @@
 4. **集成层**: 与外部 SMTP 服务器通信，完成最终投递。
 
 ### 技术栈
-- **核心语言**: [Go](https://go.dev/) (1.18+)
+- **核心语言**: [Go](https://go.dev/) (1.25+)
 - **Web 框架**: [Gin Gonic](https://gin-gonic.com/)
 - **邮件库**: [Gomail](https://github.com/go-gomail/gomail)
 - **配置管理**: YAML 与 环境变量
@@ -37,7 +37,7 @@
 
 #### 前置要求
 
-- Go 1.18 或更高版本 (用于从源码编译)
+- Go 1.25 或更高版本 (用于从源码编译)
 
 #### 安装步骤
 
