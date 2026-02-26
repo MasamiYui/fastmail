@@ -1,5 +1,7 @@
 # FastMail Gateway
 
+<img src="logo.png" width="200">
+
 A lightweight, standalone email gateway service written in Go. It provides a simple HTTP API to send emails via SMTP (e.g., Gmail), supporting attachments and HTML content. Designed for ease of use and deployment as a single binary.
 
 [English](README.md) | [中文文档](README_CN.md)
@@ -101,6 +103,11 @@ curl -X POST http://localhost:8080/api/v1/send \
   -F "body=<h1>This is a test email</h1>" \
   -F "attachments=@/path/to/document.pdf"
 ```
+
+## Contact
+
+- QQ: 546253846
+- Email: sherlock.yin1994@gmail.com
 
 ## License
 
